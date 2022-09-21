@@ -33,10 +33,12 @@ print "enter second number: ";
 $numberb = <>;
 chomp($numberb);
 
-#if($theaction eq "+")
-#{
-#	the_add(10,2);
-#}
+=pod
+if($theaction eq "+")
+{
+	the_add(10,2);
+}
+=cut
 
 given ($theaction)
 {
